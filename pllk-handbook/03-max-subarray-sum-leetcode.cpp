@@ -4,18 +4,25 @@ using namespace std;
 class Solution
 {
 public:
-    int maxSubnumsay(vector<int> &nums)
+    int maxSubArray(vector<int> &nums)
     {
         cout << "\n";
-        int sum = 0, best = 0, n = sizeof(nums) / sizeof(nums.at(0));
-        for (int k = 0; k < n; k++)
+        int sum = 0, best = 0, n = nums.size();
+        // int sum = 0, best = 0, n = sizeof(nums) / sizeof(nums.at(0));
+        if (n == 1)
+            return nums[0];
+        else
         {
-            cout << "Element at " << k << " is " << nums.at(k) << "\n";
-            sum = max(nums.at(k), sum + nums.at(k));
-            best = max(sum, best);
+            sum = nums[0], best = nums[0];
+            for (unsigned int k = 1; k < n; k++)
+            {
+                cout << "Element at " << k << " is " << nums.at(k) << "\n";
+                sum = max(nums.at(k), sum + nums.at(k));
+                best = max(sum, best);
+            }
+            cout << "\n";
+            return best;
         }
-        cout << "\n";
-        return best;
     }
 };
 
@@ -37,7 +44,13 @@ int main()
         }
 
         Solution ob;
-        cout << ob.maxSubnumsay(nums) << endl;
+        cout << ob.maxSubArray(nums) << endl;
         return 0;
     }
+
+    // custom use case
+    vector<int> nums = {-1};
+    Solution ob;
+    cout << ob.maxSubArray(nums) << "\n";
+    return 0;
 }
