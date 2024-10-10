@@ -6,7 +6,7 @@ class Solution
 public:
     int maxSubArray(vector<int> &nums)
     {
-        cout << "\n";
+        // cout << "\n";
         int sum = 0, best = 0, n = nums.size();
         // int sum = 0, best = 0, n = sizeof(nums) / sizeof(nums.at(0));
         if (n == 1)
@@ -16,11 +16,11 @@ public:
             sum = nums[0], best = nums[0];
             for (unsigned int k = 1; k < n; k++)
             {
-                cout << "Element at " << k << " is " << nums.at(k) << "\n";
+                // cout << "Element at " << k << " is " << nums.at(k) << "\n";
                 sum = max(nums.at(k), sum + nums.at(k));
                 best = max(sum, best);
             }
-            cout << "\n";
+            // cout << "\n";
             return best;
         }
     }
