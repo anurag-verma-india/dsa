@@ -9,6 +9,7 @@ int main()
     s.insert(3);
     s.insert(4);
     s.erase(2);
+    s.insert(1);
 
     cout << "Size of set s is " << s.size() << ", 2 occurs " << s.count(2) << " times"
                                                                               "\n";
