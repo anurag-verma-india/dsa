@@ -24,26 +24,27 @@ class Solution(object):
                 c2 += 1
                 i += 1
 
-            if c1 == m - 1:
+            if (c1 == m):
                 while c2 < n:
                     # final_arr[i] = nums2[c2]
                     final_arr.append(nums2[c2])
                     c2 += 1
                     i += 1
-            elif c2 == n - 1:
+            elif (c2 == n):
                 while c1 < m:
                     # final_arr[i] = nums1[c1]
                     final_arr.append(nums1[c1])
                     c1 += 1
                     i += 1
                     
-        for ele in final_arr:
-            print(f"{ele}, ", end="")
-        print()
-        # for i in range(len(nums1)-1):
-        #     nums1[i] = final_arr[i]
-
+        # for ele in final_arr:
+        #     print(f"{ele}, ", end="")
+        # print()
         # print(final_arr)
+        for i in range(len(nums1)-1):
+            nums1[i] = final_arr[i]
+        print(nums1)
+
 
 
 sol = Solution()
