@@ -91,6 +91,7 @@ int main() {
     int len_vec1 = 5;
     int len_vec2 = 1;
 
+
     sol.merge(vec1, len_vec1, vec2, len_vec2);
     return 0;
 }
