@@ -17,7 +17,5 @@ int main() {
     while(q--){
         cout << "1" << " ";
     }
-
-
     return 0;
 }
