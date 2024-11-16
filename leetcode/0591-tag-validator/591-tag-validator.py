@@ -1,3 +1,5 @@
+# Wrote it for that one Python test (it is similar to leetcode 591 not same)
+
 class Solution:
     # def isValid(self, code: str) -> bool:
         

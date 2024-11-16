@@ -1,3 +1,6 @@
+// https://leetcode.com/problems/merge-strings-alternately/submissions/1454249344/
+// accepted, not optimal
+
 #include <iostream>
 using namespace std;
 
