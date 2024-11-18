@@ -11,6 +11,7 @@
 ### 5. Learn basic recursion
 
 - [Palindrome string](./0125-palindrome-string/string_palindrome.cpp)
+- [Fibonacci number](./0592-fibonacci/fibonacci.cpp)
 
 ## 3. Solve Problems on Arrays
 
