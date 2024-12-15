@@ -3,4 +3,7 @@
 *.out
 *.bin
 
-.vscode/
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+
