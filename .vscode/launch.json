@@ -34,10 +34,10 @@
                     "text": "-Wall",
                     "ignoreFailures": true
                 }
-
             ],
             "preLaunchTask": "C/C++: g++-13 build active file",
             "miDebuggerPath": "/usr/bin/gdb"
+            // "miDebuggerPath": "/run/current-system/sw/bin/gdb" // For NixOS, not working
         }
     ]
 }

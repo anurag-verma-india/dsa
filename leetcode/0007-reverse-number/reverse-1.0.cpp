@@ -35,4 +35,5 @@ int main() {
     cin >> num;
 
     cout << sol.reverse(num) << "\n";
+    // cout << sol.reverse(1234) << "\n";
 }
