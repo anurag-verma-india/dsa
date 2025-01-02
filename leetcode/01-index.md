@@ -4,7 +4,7 @@
 
 ### 4. Know basic Maths
 
-- [Reverse a number](./0007-reverse-number/reverse-1.0.cpp)
+- [Reverse a number](./01-0007-reverse-number/reverse-1.0.cpp)
 - [Check number palindrome](./0009-palindrome/palindrome_check.cpp)
 - [GCD or HCF]
 
@@ -14,6 +14,10 @@
 - [Fibonacci number](./0592-fibonacci/fibonacci.cpp)
 
 ## 3. Solve Problems on Arrays
+
+### Easy
+
+- [Check if array is sorted](./07-1752-check-if-array-is-sorted/check-sorted.cpp)
 
 ### Hard
 
