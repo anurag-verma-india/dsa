@@ -36,17 +36,7 @@
 
 -   [80. Remove Duplicates from Sorted Array II](./0080-remove-dup-sorted-arr-2/0-remove-dup-2.cpp)
 
-
-
-
-
-
-
-
 ---
 
 (Counter program does not count beyond 4 blank lines)
 
-## Solved concepts
-
--   [27. Remove Element (array)](https://leetcode.com/problems/remove-element/description/)
