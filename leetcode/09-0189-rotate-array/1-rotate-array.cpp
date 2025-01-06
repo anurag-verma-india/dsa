@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/rotate-array/solutions/6056598/0-ms-runtime-beats-100-user-confirm-step-duqx/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -6,28 +8,10 @@ class Solution {
     void rotate(vector<int>& nums, int k) {
         int n = (int)nums.size();
         if (n == 0) return;
-
-        // print the array
-        //  for (int i = 0; i < n; i++) {
-        //      cout << nums[i] << " ";
-        //  }
-        //  printf("\n");
-        //  cout << k << "\n";
-        //  cout << "\n";
-
-        // while (n <= k) {
-
-        //     k = k - n;
-        // } // same as below
-        k %= n;
-
-        vector<int> nums2;
-        for (int i = 0; i < n; i++) {
-            nums2.push_back(nums[(i + n - k) % n]);
-        }
-        for (int i = 0; i < n; i++) {
-            nums[i] = nums2[i];
-        }
+        k %= n;  // so that always k < n
+        reverse(nums.begin(), nums.end());
+        reverse(nums.begin(), nums.begin() + k);
+        reverse(nums.begin() + k, nums.end());
     }
 };
 
