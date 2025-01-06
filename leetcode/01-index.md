@@ -19,6 +19,7 @@
 
 -   [Check if array is sorted](./07-1752-check-if-array-is-sorted/1-check-sorted.cpp)
 -   [Remove duplicates from Sorted array](./08-0026-remove-dup-sorted-arr/1-remove-dup-sorted.cpp)
+-   [Rotate Array](./09-0189-rotate-array/1-rotate-array.cpp)
 
 ### Hard
 
@@ -39,4 +40,5 @@
 ---
 
 (Counter program does not count beyond 4 blank lines)
+
 
