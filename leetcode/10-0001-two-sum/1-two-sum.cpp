@@ -5,9 +5,23 @@ using namespace std;
 class Solution {
    public:
     vector<int> twoSum(vector<int> nums, int k) {
+        unordered_map<int, int> prev_map;
+        int n = nums.size();
 
+        for (int i = 0; i < n; i++) {
+            int diff = k - nums[i];
 
-        // Add this file to 01-index.md
+            // check if index already exists in the map
+            // (i.e. if the .find() method doesn't return the lastElement+1 iterator)
+            if (prev_map.find(diff) != prev_map.end()) {
+                return {prev_map[diff], i};
+                // or
+                // return {prev_map.at(diff), i};
+            }
+            // prev_map.insert({nums[i], i});
+            // or
+            prev_map[nums[i]] = i;
+        }
         return vector<int>(2, 2);
     }
 };
