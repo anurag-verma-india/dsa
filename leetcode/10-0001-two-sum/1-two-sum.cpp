@@ -1,7 +1,35 @@
 // https://leetcode.com/problems/two-sum/solutions/5679696/easiest-detailed-explanation-with-image-4i49g/
+#include <bits/stdc++.h>
+using namespace std;
 
+class Solution {
+   public:
+    vector<int> twoSum(vector<int> nums, int k) {
+
+
+        // Add this file to 01-index.md
+        return vector<int>(2, 2);
+    }
+};
 
 int main() {
-    // Solve using the above solution 
+    if (!freopen("input.txt", "r", stdin)) cout << "There was an error opening input.txt";
+    Solution sol;
+
+    // Read array from stdin
+    int n = 0, k;
+    vector<int> arr;
+    cin >> n;
+    int temp;
+    while (n--) {
+        cin >> temp;
+        arr.push_back(temp);
+    }
+    cin >> k;  // after the array
+
+    vector<int> ans = sol.twoSum(arr, k);
+    for (int num : ans) cout << num << " ";
+    printf("\n");
+
     return 0;
 }
