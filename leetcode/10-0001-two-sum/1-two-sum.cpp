@@ -1,4 +1,6 @@
+// Solved
 // https://leetcode.com/problems/two-sum/solutions/5679696/easiest-detailed-explanation-with-image-4i49g/
+
 #include <bits/stdc++.h>
 using namespace std;
 
