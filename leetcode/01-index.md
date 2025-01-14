@@ -2,47 +2,52 @@
 
 ## 1. Learn the basics
 
-### 4. Know basic Maths
+#### 4. Know basic Maths
 
 -   [Reverse a number](./01-0007-reverse-number/reverse-1.0.cpp)
 -   [Check number palindrome](./02-0009-palindrome/palindrome_check.cpp)
 -   [GCD or HCF]
 
-### 5. Learn basic recursion
+#### 5. Learn basic recursion
 
 -   [Palindrome string](./03-0125-palindrome-string/string_palindrome.cpp)
 -   [Fibonacci number](./04-0592-fibonacci/fibonacci.cpp)
 
 ## 3. Solve Problems on Arrays
 
-### Easy
+#### Easy
 
 -   [Check if array is sorted](./07-1752-check-if-array-is-sorted/1-check-sorted.cpp)
 -   [Remove duplicates from Sorted array](./08-0026-remove-dup-sorted-arr/1-remove-dup-sorted.cpp)
 -   [Rotate Array](./09-0189-rotate-array/1-rotate-array.cpp)
--   
-### Medium
+-
 
-- [2 Sum Problem](./10-0001-two-sum/1-two-sum.cpp)
+#### Medium
 
-### Hard
+-   [2 Sum Problem](./10-0001-two-sum/1-two-sum.cpp)
+
+#### Hard
 
 -   [Merge Sorted array](./05-0088-merge-sorted-array/0088_merge_2.cpp)
 
 ## 5. Strings
 
-### Easy
+#### Easy
 
 -   [Merge Strings alternatively](./07-1752-check-if-array-is-sorted/1-check-sorted.cpp)
 
 ## Other (Solved)
 
-### Medium
+#### Medium
 
 -   [80. Remove Duplicates from Sorted Array II](./0080-remove-dup-sorted-arr-2/0-remove-dup-2.cpp)
+
+## Neetcode
+
+#### Arrays & Hashing
+
+-   [49. Group Anagrams](./0049-group-anagrams/1-group-anagrams.cpp)
 
 ---
 
 (Counter program does not count beyond 4 blank lines)
-
-
