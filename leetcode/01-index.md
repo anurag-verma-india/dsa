@@ -46,7 +46,9 @@
 
 #### Arrays & Hashing
 
--   [49. Group Anagrams](./0049-group-anagrams/1-group-anagrams.cpp)
+- 2 (E) Two sum (See above)
+-   [49. (M) Group Anagrams](./0049-group-anagrams/1-group-anagrams.cpp)
+-   [347 (M) Top K frequent elements](./0347-top-k-frequent/1-top-k-frequent.cpp)
 
 ---
 
