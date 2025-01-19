@@ -13,7 +13,6 @@ int main() {
     nat
     bat
      */
-    // Read strings of arrays
     int n = 0;
     vector<string> inp;
     cin >> n;

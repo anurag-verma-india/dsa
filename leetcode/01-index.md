@@ -1,5 +1,7 @@
 # Completed problems
 
+Opening square bracket is used to count the number of solved problems
+
 ## 1. Learn the basics
 
 #### 4. Know basic Maths
@@ -46,9 +48,10 @@
 
 #### Arrays & Hashing
 
-- 2 (E) Two sum (See above)
--   [49. (M) Group Anagrams](./0049-group-anagrams/1-group-anagrams.cpp)
+-   2 (E) Two sum (See above)
+-   [49 (M) Group Anagrams](./0049-group-anagrams/1-group-anagrams.cpp)
 -   [347 (M) Top K frequent elements](./0347-top-k-frequent/1-top-k-frequent.cpp)
+-   [271 (M) Encode and Decode strings](./0271-encode-decode-string/0-encode-decode.cpp)
 
 ---
 
