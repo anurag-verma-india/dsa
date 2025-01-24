@@ -2,6 +2,11 @@
 using namespace std;
 
 int main() {
+    // input.txt as stdin
+    if (!freopen("input.txt", "r", stdin)) {
+        cout << "There was a problem opening the input file";
+        exit(1);
+    }
     // Read strings of arrays
 
     /* Example input.txt

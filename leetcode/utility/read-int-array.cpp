@@ -2,6 +2,11 @@
 using namespace std;
 
 int main() {
+    // input.txt as stdin
+    if (!freopen("input.txt", "r", stdin)) {
+        cout << "There was a problem opening the input file";
+        exit(1);
+    }
     // Read array from stdin
 
     /* Example input.txt
@@ -17,4 +22,5 @@ int main() {
         inp.push_back(temp);
     }
     // inp is the array of strings
+    return 0;
 }

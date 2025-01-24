@@ -17,21 +17,21 @@ public:
     return ans;
   }
 
-  // vector<string> decode(string s) {
-  //     vector<string> ans;
-  //     int n = s.size();
+  vector<string> decode(string s) {
+      vector<string> ans;
+      int n = s.size();
 
-  //     int i = 0;
-  //     while (i < n) {
-  //         int j = i;
-  //         while (s[j] != '#') j++;
-  //         int len = stoi(s.substr(i, j - i));
-  //         string it = s.substr(j + 1, len);
-  //         ans.push_back(it);
-  //         i = j + 1 + len;
-  //     }
-  //     return ans;
-  // }
+      int i = 0;
+      while (i < n) {
+          int j = i;
+          while (s[j] != '#') j++;
+          int len = stoi(s.substr(i, j - i));
+          string it = s.substr(j + 1, len);
+          ans.push_back(it);
+          i = j + 1 + len;
+      }
+      return ans;
+  }
 
   vector<string> decode(string s) {
     vector<string> ans;
