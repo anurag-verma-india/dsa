@@ -53,6 +53,10 @@ Opening square bracket is used to count the number of solved problems
 -   [347 (M) Top K frequent elements](./0347-top-k-frequent/1-top-k-frequent.cpp)
 -   [271 (M) Encode and Decode strings](./0271-encode-decode-string/1-encode-decode.cpp)
 
+#### Stack
+
+-   [20 (E) Valid Parentheses](./0020-valid-parentheses/1-valid-parentheses.cpp)
+
 ---
 
 (Counter program does not count beyond 4 blank lines)
