@@ -1,0 +1,8 @@
+(would have to manually code these)
+
+Input
+function calls: ["MinStack","push","push","push","getMin","pop","top","getMin"]
+inputs: [[],[-2],[0],[-3],[],[],[],[]]
+
+Output
+[null,null,null,null,-3,null,0,-2]

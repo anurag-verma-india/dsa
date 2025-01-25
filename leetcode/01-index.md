@@ -56,6 +56,7 @@ Opening square bracket is used to count the number of solved problems
 #### Stack
 
 -   [20 (E) Valid Parentheses](./0020-valid-parentheses/1-valid-parentheses.cpp)
+-   [155 (M) Min stack](./0155-min-stack/1-0155-min-stack.cpp)
 
 ---
 
