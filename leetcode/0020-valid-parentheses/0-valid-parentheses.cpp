@@ -7,8 +7,7 @@ using namespace std;
 
 class Solution {
    public:
-    bool isValid(string s) {
-        int n = s.size();
+    bool isValid(string s) { int n = s.size();
         printf("String: ");
         cout << s << "\n";
         stack<char> p;
