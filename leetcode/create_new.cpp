@@ -9,6 +9,9 @@ g++ -o create_new create_new.cpp -lstdc++fs
 /* Usage
 ./create_folder my_problem_folder [ -s | -i | (default int) ]
 */
+
+// Editing manually
+
 #include <cstdlib>
 #include <filesystem>
 #include <fstream>
@@ -57,13 +60,16 @@ int main(int argc, char* argv[]) {
 
     std::string folderName = argv[1];
     std::string readFile = "./utility/read_int.cpp";  // Default to int
+    std::string skeletonFile = "./utility/skeleton_int.cpp";
 
     if (argc == 3) {
         std::string flag = argv[2];
         if (flag == "-s") {
             readFile = "./utility/read_string.cpp";
+            std::string skeletonFile = "./utility/skeleton_string.cpp";
         } else if (flag == "-i") {
             readFile = "./utility/read_int.cpp";
+            std::string skeletonFile = "./utility/skeleton_int.cpp";
         } else {
             std::cerr << "Invalid flag: " << flag << std::endl;
             return EXIT_FAILURE;
@@ -75,14 +81,13 @@ int main(int argc, char* argv[]) {
 
     // Copy files
     copyFile(readFile, "./" + folderName + "/read.cpp");
-    copyFile("./utility/skeleton.cpp", "./" + folderName + "/0-" + folderName + ".cpp");
+    copyFile(skeletonFile, "./" + folderName + "/0-" + folderName + ".cpp");
 
     // Create an empty input.txt file
     createEmptyFile("./" + folderName + "/input.txt");
 
     return EXIT_SUCCESS;
 }
-
 
 /* Prompt
 Here is the code for my cpp file
