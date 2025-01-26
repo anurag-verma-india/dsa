@@ -48,7 +48,7 @@ Opening square bracket is used to count the number of solved problems
 
 #### Arrays & Hashing
 
--   2 (E) Two sum (See above)
+-   2 (E) Two sum (See above)(./10-0001-two-sum/1-two-sum.cpp)
 -   [49 (M) Group Anagrams](./0049-group-anagrams/1-group-anagrams.cpp)
 -   [347 (M) Top K frequent elements](./0347-top-k-frequent/1-top-k-frequent.cpp)
 -   [271 (M) Encode and Decode strings](./0271-encode-decode-string/1-encode-decode.cpp)
@@ -57,6 +57,10 @@ Opening square bracket is used to count the number of solved problems
 
 -   [20 (E) Valid Parentheses](./0020-valid-parentheses/1-valid-parentheses.cpp)
 -   [155 (M) Min stack](./0155-min-stack/1-0155-min-stack.cpp)
+
+#### Two Pointers
+
+-   125 (E) Palindrome String (see above)(./03-0125-palindrome-string/string_palindrome.cpp)
 
 ---
 

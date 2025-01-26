@@ -1,7 +1,11 @@
 #include <bits/stdc++.h>
 
-#include "./read.cpp"
+#include "./file_as_stdin.cpp"
+// #include "./read_int.cpp"
+// #include "./read_string.cpp"
 
 int main() {
-    read_input("input.txt");
+    file_as_stdin("input.txt");
+    // vector<string> str = read_string();
+    // vector<int> int_vec = read_int();
 }
