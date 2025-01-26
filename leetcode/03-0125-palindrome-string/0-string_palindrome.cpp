@@ -1,5 +1,5 @@
-// https://leetcode.com/problems/valid-palindrome/
 // accepted, not optimal
+// https://leetcode.com/problems/valid-palindrome/
 
 #include <bits/stdc++.h>
 using namespace std;
