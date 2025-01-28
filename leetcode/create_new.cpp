@@ -53,35 +53,67 @@ void createEmptyFile(const std::string& filePath) {
 }
 
 int main(int argc, char* argv[]) {
+    /*
+    argc: length of arguments passes
+    argv[0] name of program
+    argv[1...n]: arguments passed in order
+    */
     if (argc < 2 || argc > 3) {
         std::cerr << "Usage: " << argv[0] << " <folder_name> [-s | -i]" << std::endl;
         return EXIT_FAILURE;
     }
 
-    std::string folderName = argv[1];
-    std::string readFile = "./utility/read_int.cpp";  // Default to int
-    std::string skeletonFile = "./utility/skeleton_int.cpp";
+    // for (int i = 1; i < argc; i++) {
+    //     if (argv[i][0] == '-') {
+    //         std::string flag = argv[i];
+    //         std::string folderName = argv[i + 1 % (argc - 1)];
+    //     }
+    // }
 
+    // if no flag passed
+    std::string folderName = argv[1];
+    std::string readFile = "read_int.cpp";  // Default to int
+    std::string skeletonFile = "skeleton_int.cpp";
+
+    // if flags passed
     if (argc == 3) {
-        std::string flag = argv[2];
+        std::string flag;
+        // determine the flag and the folder name (from passed arguments)
+        if (argv[1][0] == '-') {
+            flag = argv[1];
+            folderName = argv[2];
+        } else
+        // (argv[2][0] == '-') {
+        {
+            flag = argv[2];
+            folderName = argv[1];
+        }
+        std::cout << "flag: " << flag << "\n";
+
         if (flag == "-s") {
-            readFile = "./utility/read_string.cpp";
-            std::string skeletonFile = "./utility/skeleton_string.cpp";
+            std::cout << "\nin -s\n";
+            readFile = "read_string.cpp";
+            skeletonFile = "skeleton_string.cpp";
+            std::cout << "skeletonFile1: " << skeletonFile << "\n";
         } else if (flag == "-i") {
-            readFile = "./utility/read_int.cpp";
-            std::string skeletonFile = "./utility/skeleton_int.cpp";
+            std::cout << "\nin -i\n";
+            readFile = "read_int.cpp";
+            skeletonFile = "skeleton_int.cpp";
         } else {
             std::cerr << "Invalid flag: " << flag << std::endl;
             return EXIT_FAILURE;
         }
     }
+    std::cout << "readFile: " << readFile << "\n";
+    std::cout << "skeletonFile: " << skeletonFile << "\n";
 
     // Create the new folder
     createFolder(folderName);
 
     // Copy files
-    copyFile(readFile, "./" + folderName + "/read.cpp");
-    copyFile(skeletonFile, "./" + folderName + "/0-" + folderName + ".cpp");
+    copyFile("./utility/" + readFile, "./" + folderName + "/" + readFile);
+    copyFile("./utility/" + skeletonFile, "./" + folderName + "/0-" + folderName + ".cpp");
+    copyFile("./utility/file_as_stdin.cpp", "./" + folderName + "/file_as_stdin.cpp");
 
     // Create an empty input.txt file
     createEmptyFile("./" + folderName + "/input.txt");
