@@ -12,17 +12,26 @@ class Solution {
         stack<int> stk;
         for (int i = 0; i < (int)tokens.size(); i++) {
             string token = tokens[i];
-            if (token.size() > 2 || isdigit(token[0])) {
+            if (token.size() > 1 || isdigit(token[0])) {
                 stk.push(stoi(token));
                 continue;
             }
-            int num1 = stk.top();
-            stk.pop();
             int num2 = stk.top();
             stk.pop();
+            int num1 = stk.top();
+            stk.pop();
             int result = 0;
-            // if (token == "+") result =
+            if (token == "+")
+                result = num1 + num2;
+            else if (token == "-")
+                result = num1 - num2;
+            else if (token == "*")
+                result = num1 * num2;
+            else if (token == "/")
+                result = num1 / num2;
+            stk.push(result);
         }
+        return stk.top();
     }
 };
 
