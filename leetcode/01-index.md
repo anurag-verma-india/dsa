@@ -63,6 +63,10 @@ Opening square bracket is used to count the number of solved problems
 
 -   125 (E) Palindrome String (see above)(./03-0125-palindrome-string/string_palindrome.cpp)
 
+#### Backtracking
+
+-   [22 (M) Generate Parenthesis](./0022-generate-parentheses/1-0022-generate-parentheses.cpp)
+
 ---
 
 (Counter program does not count beyond 4 blank lines)
