@@ -52,6 +52,7 @@ Opening square bracket is used to count the number of solved problems
 -   [49 (M) Group Anagrams](./0049-group-anagrams/1-group-anagrams.cpp)
 -   [347 (M) Top K frequent elements](./0347-top-k-frequent/1-top-k-frequent.cpp)
 -   [271 (M) Encode and Decode strings](./0271-encode-decode-string/1-encode-decode.cpp)
+-   [36 (M) Valid Sudoku](./0036-valid-sudoku/1-0036-valid-sudoku.cpp)
 
 #### Stack
 
@@ -65,7 +66,7 @@ Opening square bracket is used to count the number of solved problems
 
 #### Backtracking
 
--   [22 (M) Generate Parenthesis](./0022-generate-parentheses/1-0022-generate-parentheses.cpp)
+-   [22 (M) Generate Parenthesis](./0022-generate-parentheses/1-0022-generate-parentheses.cpp) (in stack section of neetcode)
 
 ---
 
