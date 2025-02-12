@@ -1,3 +1,4 @@
+// did not try to solve by myself
 // https://leetcode.com/problems/daily-temperatures/
 #include <bits/stdc++.h>
 
@@ -7,18 +8,9 @@
 class Solution {
    public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
-        vector<int> ans;
-        /*
-        For each value find the next value that is higher that than i
+        vector<int> result(n);
 
-        value at i+x is greater than value at i
-        now find x,
-        (or return 0 if no such value exist)
-
-        and return an array that has x at each i in the given array
-
-         */
-        return ans;
+        return result;
     }
 };
 
