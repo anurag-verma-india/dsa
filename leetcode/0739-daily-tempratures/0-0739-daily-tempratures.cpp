@@ -8,7 +8,7 @@
 class Solution {
    public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
-        vector<int> result(n);
+        vector<int> result(temperatures.size());
 
         return result;
     }
