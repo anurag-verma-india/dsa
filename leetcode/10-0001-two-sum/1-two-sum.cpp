@@ -24,7 +24,7 @@ class Solution {
             // or
             prev_map[nums[i]] = i;
         }
-        return vector<int>(2, 2);
+        return vector<int>(1, -1);
     }
 };
 
