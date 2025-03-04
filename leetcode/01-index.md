@@ -61,6 +61,7 @@ Opening square bracket is used to count the number of solved problems
 -   [150 (M) Evaluate Reverse Polish](./0150-evaluate-reverse-polish/1-0150-evaluate-reverse-polish.cpp)
 -   [0739 (M) Daily Temperatures](./0739-daily-tempratures/2-0739-daily-tempratures.cpp)
 -   [0853 (M) Car Fleet](./0853-car-fleet/1-0853-car-fleet.cpp)
+-   [0084 (H) Largest Rectangle in Histogram](./0084-largest-rect-in-historgam/1-0084-largest-rect-in-historgam.cpp)
 
 #### Two Pointers
 
