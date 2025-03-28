@@ -26,7 +26,7 @@ Opening square bracket is used to count the number of solved problems
 
 #### Medium
 
--   [2 Sum Problem](./10-0001-two-sum/1-two-sum.cpp)
+-   [2 Sum Problem](./10-0001-two-sum/1-two-sum.cpp) (2 times)
 
 #### Hard
 
