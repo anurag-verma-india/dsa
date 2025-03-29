@@ -66,7 +66,8 @@ Opening square bracket is used to count the number of solved problems
 #### Two Pointers
 
 -   125 (E) Palindrome String (see above)(./03-0125-palindrome-string/string_palindrome.cpp)
--   [0167 (M) Two Pointers 2](./0167-two-sum-2/1-0167-two-sum-2.cpp)
+-   [0167 (M) Two Sum 2](./0167-two-sum-2/1-0167-two-sum-2.cpp) (2 times)
+-   [0015 (M) Three Sum](./0015-3sum/3-0015-3sum.cpp)
 
 #### Backtracking
 
