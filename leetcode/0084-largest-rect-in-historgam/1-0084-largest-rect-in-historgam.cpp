@@ -7,8 +7,15 @@
 #include "./read_int.cpp"
 
 /*
-Left boundary =  index of left element greater than or equal to current one in height
-Right boundary =  index of right element greater than or equal to current one in height
+
+Area for each index = bar_height * (right_boundary - left_boundary + 1)
+    [right_boundary[i] - (left_boundary[i] - 1)]
+    We are including the right boundary in the width
+    Subtracting the element left of the left boundary from the width
+    (because we want to include the left boundary element in the width calculation)
+
+Left boundary =  index of lefter element greater than or equal to current one in height
+Right boundary =  index of righter element greater than or equal to current one in height
 
 Calculate left boundary
 (left most element index with greater or equal height to each one)
@@ -28,7 +35,6 @@ if the element at the top is greater than or equal to current, pop
 if the element is smaller than current (that's a hole)
     right_boundary[current_index] = top - 1
 
-Area for each index = bar_height * (right_boundary - left_boundary - 1) [since fences]
 */
 
 class Solution {
