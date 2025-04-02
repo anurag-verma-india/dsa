@@ -69,6 +69,7 @@ Opening square bracket is used to count the number of solved problems
 -   [0167 (M) Two Sum 2](./0167-two-sum-2/1-0167-two-sum-2.cpp) (2 times)
 -   [0015 (M) Three Sum](./0015-3sum/3-0015-3sum.cpp)
 -   [0011 (M) Container with most water](./0011-container-with-most-water/0-0011-container-with-most-water.cpp)
+-   [0042 (H) Trapping Rain Water](./0042-trapping-rain-water/0-0042-trapping-rain-water.cpp)
 
 #### Backtracking
 
