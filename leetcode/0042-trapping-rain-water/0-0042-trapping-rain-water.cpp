@@ -1,4 +1,4 @@
-// Beats 100% not checked if optimal or not
+// Beats 100% int time, 19% memory
 // https://leetcode.com/problems/trapping-rain-water/
 
 #include <bits/stdc++.h>
