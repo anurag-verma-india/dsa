@@ -71,6 +71,10 @@ Opening square bracket is used to count the number of solved problems
 -   [0011 (M) Container with most water](./0011-container-with-most-water/0-0011-container-with-most-water.cpp)
 -   [0042 (H) Trapping Rain Water](./0042-trapping-rain-water/0-0042-trapping-rain-water.cpp)
 
+#### Binary Search
+
+-   [0704 (E) Binary Search](./0704-Binary-Search/0-0704-Binary-Search.cpp)
+
 #### Backtracking
 
 -   [22 (M) Generate Parenthesis](./0022-generate-parentheses/1-0022-generate-parentheses.cpp) (in stack section of neetcode)
