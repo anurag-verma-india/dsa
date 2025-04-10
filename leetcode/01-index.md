@@ -69,6 +69,7 @@ Opening square bracket is used to count the number of solved problems
 
 -   [0704 (E) Binary Search](./0704-Binary-Search/0-0704-Binary-Search.cpp)
 -   [0074 (M) Search a 2D Matrix](./0074-search-2d-matrix/0-0074-search-2d-matrix.cpp)
+-   [0875 (M) Koko eating bananas](./0875-koko-eating-bananas/1-0875-koko-eating-bananas.cpp)
 
 #### Backtracking
 
