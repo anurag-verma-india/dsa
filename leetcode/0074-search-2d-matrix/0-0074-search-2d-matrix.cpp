@@ -46,6 +46,9 @@ class Solution {
         int oul = 0, our = m - 1, oum;  // ou = outer
         int inl = 0, inr = n - 1, inm;  // in = inner
 
+        if (matrix[our][inr] < target) return false;
+        // Since target is greater than the greatest element in the matrix
+
         while (oul <= our) {
             oum = oul + (our - oul) / 2;
             if (matrix[oum][inl] <= target && matrix[oum][inr] >= target) {

@@ -38,12 +38,6 @@ Opening square bracket is used to count the number of solved problems
 
 -   [Merge Strings alternatively](./07-1752-check-if-array-is-sorted/1-check-sorted.cpp)
 
-## Other (Solved)
-
-#### Medium
-
--   [80. Remove Duplicates from Sorted Array II](./0080-remove-dup-sorted-arr-2/0-remove-dup-2.cpp)
-
 ## Neetcode
 
 #### Arrays & Hashing
@@ -79,6 +73,12 @@ Opening square bracket is used to count the number of solved problems
 #### Backtracking
 
 -   [22 (M) Generate Parenthesis](./0022-generate-parentheses/1-0022-generate-parentheses.cpp) (in stack section of neetcode)
+
+## Other (Solved)
+
+#### Medium
+
+-   [80. Remove Duplicates from Sorted Array II](./0080-remove-dup-sorted-arr-2/0-remove-dup-2.cpp)
 
 ---
 
