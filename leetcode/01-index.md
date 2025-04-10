@@ -78,7 +78,8 @@ Opening square bracket is used to count the number of solved problems
 
 #### Medium
 
--   [80. Remove Duplicates from Sorted Array II](./0080-remove-dup-sorted-arr-2/0-remove-dup-2.cpp)
+-   [0080 (M) Remove Duplicates from Sorted Array II](./0080-remove-dup-sorted-arr-2/0-remove-dup-2.cpp)
+-   [0240 (M) Search a 2d matrix II](./0240-search-2d-matrix-2/1-0240-search-2d-matrix-2.cpp)
 
 ---
 
