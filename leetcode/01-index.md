@@ -71,6 +71,11 @@ Opening square bracket is used to count the number of solved problems
 -   [0074 (M) Search a 2D Matrix](./0074-search-2d-matrix/0-0074-search-2d-matrix.cpp)
 -   [0875 (M) Koko eating bananas](./0875-koko-eating-bananas/1-0875-koko-eating-bananas.cpp)
 -   [0153 (M) Find Minimum in rotated sorted array](./0153-min-in-rotated-sorted/1-0153-min-in-rotated-sorted.cpp)
+-
+
+#### Sliding Window
+
+-   [0121 (M) Best time to buy and sell stocks](./0121-best-time-buy-sell-stocks/1-0121-best-time-buy-sell-stocks.cpp)
 
 #### Backtracking
 
