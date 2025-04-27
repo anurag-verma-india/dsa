@@ -76,6 +76,7 @@ Opening square bracket is used to count the number of solved problems
 #### Sliding Window
 
 -   [0121 (M) Best time to buy and sell stocks](./0121-best-time-buy-sell-stocks/1-0121-best-time-buy-sell-stocks.cpp)
+-   [0003 (M) Longest substring without repeating characters](./0003-longest-substring-wo-repeating-chars/1-0003-longest-substring-wo-repeating-chars.cpp)
 
 #### Backtracking
 

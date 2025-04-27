@@ -1,11 +1,10 @@
 
-2
-au
-
 6
 pwwkew
 
 0
+
+No character
 
 1
  
@@ -19,4 +18,7 @@ bbbbb
 
 8
 abcabcbb
+
+2
+au
 

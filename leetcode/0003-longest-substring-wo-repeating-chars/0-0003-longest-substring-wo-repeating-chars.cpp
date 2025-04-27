@@ -26,7 +26,6 @@ complexity:
 space:
 
 time:
-
 */
 class Solution {
    public:
