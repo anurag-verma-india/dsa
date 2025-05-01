@@ -25,11 +25,20 @@ approach:
             save the found value in a temp variable for each iteration
 
 --
-complexity
-time:
+# Complexity
+set()
+    time: O(1) 
+        finding in hashmap and appending to vector is constant time complexity
 
-space:
+    space: O(1)
+        for each function call, O(n) for n calls
 
+get()
+    time: O(log n)
+        where n in the number of timestamps for a given key, finding in hashmap is constant, binary search is log n
+
+    space: O(1)
+        no additional data structure is used just some constants, for binary search
 */
 
 class TimeMap {
