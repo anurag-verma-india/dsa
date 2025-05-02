@@ -71,6 +71,7 @@ Opening square bracket is used to count the number of solved problems
 -   [0074 (M) Search a 2D Matrix](./0074-search-2d-matrix/0-0074-search-2d-matrix.cpp)
 -   [0875 (M) Koko eating bananas](./0875-koko-eating-bananas/1-0875-koko-eating-bananas.cpp)
 -   [0153 (M) Find Minimum in rotated sorted array](./0153-min-in-rotated-sorted/1-0153-min-in-rotated-sorted.cpp)
+-   [0033 (M) Search in rotated sorted array](./0033-search-in-rotated-soted-array/1-0033-search-in-rotated-soted-array.cpp)
 -   [0981 (M) Time based key value store](./0981-time-based-key-value-store/0-0981-time-based-key-value-store.cpp)
 
 #### Sliding Window
