@@ -52,9 +52,13 @@ approach:
        (now we are sure that the element is not in the array)
 ---
 complexity
-time:
+
+time: O(log n) 
+    every time search space halves (const time to determine search space )
 
 space:
+    O(1) 
+    no auxilary space used (only l, m, r), so const space
 
 */
 
