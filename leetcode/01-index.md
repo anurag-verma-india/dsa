@@ -73,6 +73,7 @@ Opening square bracket is used to count the number of solved problems
 -   [0153 (M) Find Minimum in rotated sorted array](./0153-min-in-rotated-sorted/1-0153-min-in-rotated-sorted.cpp)
 -   [0033 (M) Search in rotated sorted array](./0033-search-in-rotated-soted-array/1-0033-search-in-rotated-soted-array.cpp)
 -   [0981 (M) Time based key value store](./0981-time-based-key-value-store/0-0981-time-based-key-value-store.cpp)
+-   [0004 (H) Median of Two sorted arrays](./0004-median-of-two-sorted-arrays/1-0004-median-of-two-sorted-arrays.cpp)
 
 #### Sliding Window
 
