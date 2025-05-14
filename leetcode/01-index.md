@@ -2,10 +2,11 @@
 
 Opening square bracket is used to count the number of solved problems
 
+## Striver
+
 ## 1. Learn the basics
 
 #### 4. Know basic Maths
-
 -   [Reverse a number](./01-0007-reverse-number/reverse-1.0.cpp)
 -   [Check number palindrome](./02-0009-palindrome/palindrome_check.cpp)
 -   [GCD or HCF]
@@ -14,6 +15,10 @@ Opening square bracket is used to count the number of solved problems
 
 -   [Palindrome string](./03-0125-palindrome-string/string_palindrome.cpp)
 -   [Fibonacci number](./04-0592-fibonacci/fibonacci.cpp)
+-   
+
+## 2 : Learn Important Sorting Techniques
+- [Bubble Sort](./000-bubble-sort/bubbleSort.cpp)
 
 ## 3. Solve Problems on Arrays
 
