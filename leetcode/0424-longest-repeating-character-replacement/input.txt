@@ -1,0 +1,16 @@
+
+AABABBA
+1
+
+----
+// Custom cases
+ABABABABCCCCDDDCCCCCAA
+3
+
+ABBA
+2
+----
+
+ABAB
+2
+

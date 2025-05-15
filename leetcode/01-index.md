@@ -15,7 +15,6 @@ Opening square bracket is used to count the number of solved problems
 
 -   [Palindrome string](./03-0125-palindrome-string/string_palindrome.cpp)
 -   [Fibonacci number](./04-0592-fibonacci/fibonacci.cpp)
--   
 
 ## 2 : Learn Important Sorting Techniques
 - [Bubble Sort](./000-bubble-sort/bubbleSort.cpp)
@@ -27,7 +26,6 @@ Opening square bracket is used to count the number of solved problems
 -   [Check if array is sorted](./07-1752-check-if-array-is-sorted/1-check-sorted.cpp)
 -   [Remove duplicates from Sorted array](./08-0026-remove-dup-sorted-arr/1-remove-dup-sorted.cpp)
 -   [Rotate Array](./09-0189-rotate-array/1-rotate-array.cpp)
--
 
 #### Medium
 
@@ -84,6 +82,7 @@ Opening square bracket is used to count the number of solved problems
 
 -   [0121 (M) Best time to buy and sell stocks](./0121-best-time-buy-sell-stocks/1-0121-best-time-buy-sell-stocks.cpp)
 -   [0003 (M) Longest substring without repeating characters](./0003-longest-substring-wo-repeating-chars/1-0003-longest-substring-wo-repeating-chars.cpp)
+-   [0424 (M) Longest repeating character replacement](./0424-longest-repeating-character-replacement/1-0424-longest-repeating-character-replacement.cpp)
 
 #### Backtracking
 
