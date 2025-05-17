@@ -45,11 +45,14 @@ Opening square bracket is used to count the number of solved problems
 
 #### Arrays & Hashing
 
--   2 (E) Two sum (See above)(./10-0001-two-sum/1-two-sum.cpp)
--   [49 (M) Group Anagrams](./0049-group-anagrams/1-group-anagrams.cpp)
--   [347 (M) Top K frequent elements](./0347-top-k-frequent/1-top-k-frequent.cpp)
--   [271 (M) Encode and Decode strings](./0271-encode-decode-string/1-encode-decode.cpp)
--   [36 (M) Valid Sudoku](./0036-valid-sudoku/1-0036-valid-sudoku.cpp)
+-    0002 (E) Two sum (See above)(./10-0001-two-sum/1-two-sum.cpp)
+-   [0049 (M) Group Anagrams](./0049-group-anagrams/1-group-anagrams.cpp)
+-   [0347 (M) Top K frequent elements](./0347-top-k-frequent/1-top-k-frequent.cpp)
+-   [0271 (M) Encode and Decode strings](./0271-encode-decode-string/1-encode-decode.cpp)
+-   [0238 (M) Product of Array Except Self](./0238-product-of-array/2-product-of-array-except-self.cpp)
+-   [0036 (M) Valid Sudoku](./0036-valid-sudoku/1-0036-valid-sudoku.cpp)
+-   [0128 (M) Longest Consecutive Sequence](./0128-longest-consecutive-sequence/2-0128-longest-consecutive-sequence.cpp)
+
 
 #### Stack
 
