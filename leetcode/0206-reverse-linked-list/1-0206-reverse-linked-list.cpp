@@ -1,6 +1,6 @@
-// Not Looked at others' solutions yet
-// T 100, M 70
-// https://leetcode.com/problems/reverse-linked-list/description/
+// https://www.youtube.com/watch?v=R-CKBYnOv1U&list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt&index=59
+// T 100, M 40 (Same as 0- w/ minor changes)
+// https://leetcode.com/problems/reverse-linked-list
 #include <bits/stdc++.h>
 
 #include "./file_as_stdin.cpp"
@@ -19,12 +19,6 @@ output:
 approach:
     traverse the LL (while currNode != nullptr)
     change links
-        // save pointer of current value in a prevNode
-        // go to next node
-        // save it's next in tempNext
-        // replace it's next to the prev
-        // continue
-
         initialize prevNode with nullptr
         replace next of current node to prevNode
         save current node's address in prevNode
@@ -54,13 +48,14 @@ class Solution {
     ListNode* reverseList(ListNode* head) {
         ListNode* curr = head;
         ListNode* prevNode = nullptr;
+        ListNode* nextNode = nullptr;
 
         while (curr != nullptr) {
             // cout << "Current Node: " << curr->val << endl;
-            ListNode* nextNode = curr->next;
+            nextNode = curr->next;  // replace nxt node w/ head's next
             curr->next = prevNode;
-            prevNode = curr;
-
+            // Prepare for the next iteration
+            prevNode = curr; 
             curr = nextNode;
         }
         return prevNode;

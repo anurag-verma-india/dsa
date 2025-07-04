@@ -88,6 +88,10 @@ Opening square bracket is used to count the number of solved problems
 -   [0003 (M) Longest substring without repeating characters](./leetcode/0003-longest-substring-wo-repeating-chars/1-0003-longest-substring-wo-repeating-chars.cpp)
 -   [0424 (M) Longest repeating character replacement](./leetcode/0424-longest-repeating-character-replacement/1-0424-longest-repeating-character-replacement.cpp)
 
+#### Linked List
+
+-   [0206 (E) Reverse Linked List](./leetcode/0206-reverse-linked-list/1-0206-reverse-linked-list.cpp)
+
 #### Backtracking
 
 -   [22 (M) Generate Parenthesis](./leetcode/0022-generate-parentheses/1-0022-generate-parentheses.cpp) (in stack section of neetcode)
