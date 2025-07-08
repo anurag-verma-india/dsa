@@ -28,9 +28,11 @@ approach:
 ---
 complexity
 
-space:
+space: O(1)
+We are not using any extra space that is proportional to the input size. We are only using a few pointers to keep track of the nodes.
 
-time:
+time: O(n)
+We are iterating through the linked list once.
 
 */
 
@@ -63,10 +65,10 @@ class Solution {
 };
 
 void printLL(ListNode* head) {
-    // ListNode* temp = head;
-    while (head != nullptr) {
-        cout << head->val << " ";
-        head = head->next;
+    ListNode* temp = head;
+    while (temp != nullptr) {
+        cout << temp->val << " ";
+        temp = temp->next; // We don't need to preserve head in this situation
     }
     cout << endl;
 }
