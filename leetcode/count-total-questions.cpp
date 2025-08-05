@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int count_opening_square_brackets(string s) {
@@ -10,8 +10,11 @@ int count_opening_square_brackets(string s) {
 }
 
 int main() {
-    freopen("01-index.md", "r", stdin);
-    // freopen("index.md", "r", stdin);
+    char file_path[] = "../README.md";
+    if (!freopen(file_path, "r", stdin)) {
+        cout << "There was a problem opening the file: " << file_path << endl;
+        return 1;
+    }
     int consecutive_blank_lines = 0;
     int total_problems_solved = 0;
 
