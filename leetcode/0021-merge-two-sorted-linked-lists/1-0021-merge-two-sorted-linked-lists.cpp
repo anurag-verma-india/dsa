@@ -1,5 +1,6 @@
-
+// T 100, M 86
 // https://leetcode.com/problems/merge-two-sorted-lists/
+// https://leetcode.com/problems/merge-two-sorted-lists/solutions/6048156/video-using-dummy-pointer-and-recursion-njhs2/
 #include <bits/stdc++.h>
 
 #include "./file_as_stdin.cpp"
@@ -18,6 +19,12 @@ output:
     head: head of merged list
 
 approach:
+    make a dummy node to keep start the process
+    save dummy as current node
+
+    while list1 & list2 exist (i.e. their values don't become null keep running the loop)
+    if val at list1 is greater append list2's current node and move the list2 to point to next
+    otherwise do the same for list1
 
 ---
 complexity
@@ -42,6 +49,21 @@ struct ListNode {
 class Solution {
    public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
+        ListNode* dummy = new ListNode();
+        ListNode* curr = dummy;
+
+        while (list1 && list2) {
+            if (list1->val > list2->val) {
+                curr->next = list2;
+                list2 = list2->next;
+            } else {
+                curr->next = list1;
+                list1 = list1->next;
+            }
+            curr = curr->next;
+        }
+        curr->next = list1 ? list1 : list2;
+        return dummy->next;
     }
 };
 

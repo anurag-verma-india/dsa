@@ -91,6 +91,7 @@ Opening square bracket is used to count the number of solved problems
 #### Linked List
 
 -   [0206 (E) Reverse Linked List](./leetcode/0206-reverse-linked-list/1-0206-reverse-linked-list.cpp)
+-   [0021 (E) Merge Two Sorted Lists](./leetcode/0021-merge-two-sorted-linked-lists/1-0021-merge-two-sorted-linked-lists.cpp)
 -   [0141 (E) Linked List Cycle](./leetcode/0141-linked-list-cycle/1-0141-linked-list-cycle.cpp)
 
 #### Backtracking
