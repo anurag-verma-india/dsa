@@ -53,6 +53,7 @@ Opening square bracket is used to count the number of solved problems
 -   [0271 (M) Encode and Decode strings](./leetcode/0271-encode-decode-string/1-encode-decode.cpp)
 -   [0238 (M) Product of Array Except Self](./leetcode/0238-product-of-array/2-product-of-array-except-self.cpp)
 -   [0036 (M) Valid Sudoku](./leetcode/0036-valid-sudoku/1-0036-valid-sudoku.cpp)
+    -   Re0036 (M) Valid Sudoku(./leetcode/0036-valid-sudoku/re2-00360valid-sudoku.py)
 -   [0128 (M) Longest Consecutive Sequence](./leetcode/0128-longest-consecutive-sequence/2-0128-longest-consecutive-sequence.cpp)
 
 #### Stack
