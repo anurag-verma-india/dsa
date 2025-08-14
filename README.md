@@ -14,7 +14,7 @@ Opening square bracket is used to count the number of solved problems
 
 #### 5. Learn basic recursion
 
--   [Palindrome string](./leetcode/03-0125-palindrome-string/string_palindrome.cpp)
+-   [Palindrome string](./leetcode/0125-palindrome-string/1-string_palindrome.cpp)
 -   [Fibonacci number](./leetcode/04-0592-fibonacci/fibonacci.cpp)
 
 ## 2 : Learn Important Sorting Techniques
@@ -67,7 +67,8 @@ Opening square bracket is used to count the number of solved problems
 
 #### Two Pointers
 
--   125 (E) Palindrome String (see above)(./leetcode/03-0125-palindrome-string/string_palindrome.cpp)
+-   0125 (E) Palindrome String (see above)(./leetcode/0125-palindrome-string/string_palindrome.cpp)
+    -   Re0125 (./leetcode/0125-palindrome-string/re0-string-palindrome.py)
 -   [0167 (M) Two Sum 2](./leetcode/0167-two-sum-2/1-0167-two-sum-2.cpp) (2 times)
 -   [0015 (M) Three Sum](./leetcode/0015-3sum/3-0015-3sum.cpp)
 -   [0011 (M) Container with most water](./leetcode/0011-container-with-most-water/0-0011-container-with-most-water.cpp)
