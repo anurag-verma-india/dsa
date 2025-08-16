@@ -1,4 +1,5 @@
 
+// t: 0ms - 100%, s: 23 - 80%
 // https://leetcode.com/problems/reorder-list/
 #include <bits/stdc++.h>
 
@@ -22,14 +23,15 @@ output:
     void : just manipulate the existing list to reorder in the given format, starting from HEAD
 
 approach:
-
+    find the middle of the list
+    reverse the right half
+    merge the left half and the reversed right half
 
 ---
 complexity
+time: O(n)
 
-space:
-
-time:
+space: O(1)
 
 */
 
@@ -41,32 +43,65 @@ struct ListNode {
     ListNode(int x, ListNode* next) : val(x), next(next) {}
 };
 
-class Solution {
-   public:
-    void reorderList(ListNode* head) {
-        ListNode* temp = head;
-
-        unordered_map<ListNode*, ListNode*> prevMap;
-
-        ListNode* prev = nullptr;
-        while (temp != nullptr) {
-            prevMap.insert(temp, prev);
-            prev = temp;
-            temp = temp->next;
-        }
-    }
-};
-
 void printLL(ListNode* head) {
     ListNode* temp = head;
 
     cout << "Linked List values: ";
-    while (temp->next != nullptr) {
+    while (temp != nullptr) {
         cout << temp->val << " ";
         temp = temp->next;
     }
     cout << endl;
 }
+
+class Solution {
+   public:
+    void reorderList(ListNode* head) {
+        ListNode* slow = head;
+        ListNode* fast = head;
+
+        while (fast != nullptr && fast->next != nullptr) {
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        ListNode* left = head;
+        ListNode* right = slow->next;
+        slow->next = nullptr;  // cut the link of the left half to the right one
+
+        // cout << "---- Left ----" << endl;
+        // printLL(left);
+        // cout << "---- Right ----" << endl;
+        // printLL(right);
+
+        // reverse the right half
+        ListNode* prev = nullptr;
+        ListNode* temp = right;
+        ListNode* nxt = nullptr;
+
+        while (temp) {
+            nxt = temp->next;
+            temp->next = prev;
+            prev = temp;
+            temp = nxt;
+        }
+        right = prev;
+        // cout << "--rev--" << endl;
+        // printLL(right);
+
+        // Merge the right half with the left half
+        ListNode* l_nxt;
+        ListNode* r_nxt;
+        while (left && right) {
+            l_nxt = left->next;
+            r_nxt = right->next;
+            left->next = right;
+            right->next = l_nxt;
+
+            right = r_nxt;
+            left = l_nxt;
+        }
+    }
+};
 
 int main() {
     file_as_stdin("input.txt");
@@ -86,8 +121,8 @@ int main() {
         prev = curr;
     }
 
-    cout << "----List----" << endl;
-    printLL(head);
+    // cout << "----List----" << endl;
+    // printLL(head);
 
     Solution sol;
     sol.reorderList(head);
