@@ -71,7 +71,7 @@ void printLL(ListNode* head) {
     ListNode* temp = head;
 
     cout << "Linked List values: ";
-    while (temp->next != nullptr) {
+    while (temp != nullptr) {
         cout << temp->val << " ";
         temp = temp->next;
     }
