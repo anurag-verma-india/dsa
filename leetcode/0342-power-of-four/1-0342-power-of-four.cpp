@@ -1,0 +1,79 @@
+
+// https://leetcode.com/problems/power-of-four/description/?envType=daily-question&envId=2025-08-15
+#include <bits/stdc++.h>
+
+#include "./file_as_stdin.cpp"
+#include "./read_int.cpp"
+
+/*
+----
+Description:
+Given an integer n, return true if it is a power of four. Otherwise, return false.
+
+An integer n is a power of four, if there exists an integer x such that n == 4x.
+
+Example 1:
+
+Input: n = 16
+Output: true
+Example 2:
+
+Input: n = 5
+Output: false
+Example 3:
+
+Input: n = 1
+Output: true
+
+Constraints:
+
+-231 <= n <= 231 - 1
+
+Follow up: Could you solve it without loops/recursion?
+----
+
+
+input:
+    int n: given number
+
+output:
+    bool ans: true if n is power of 4 otherwise false
+
+approach:
+    calculate the max number that is power of 4
+
+    if max % n remainder is 0 then it's a power otherwise not
+
+---
+complexity
+
+space:
+
+time:
+
+*/
+
+class Solution {
+   public:
+    bool isPowerOfFour(int n) {
+        int rem = INT32_MAX % 4;
+        int max = INT32_MAX - rem;
+
+        // return !(max % n);
+        // bool ans = max % n;
+        return n > 0 && max % n == 0;
+    }
+};
+
+int main() {
+    file_as_stdin("input.txt");
+    vector<int> int_vec = read_int();
+    int n = int_vec[0];
+
+    // Solution sol(4);
+    Solution sol{};
+    string ans = sol.isPowerOfFour(n) ? "true" : "false";
+
+    cout << n << " is a power of 4: " << ans << endl;
+    return 0;
+}
