@@ -90,6 +90,7 @@ Opening square bracket is used to count the number of solved problems
 -   [0121 (M) Best time to buy and sell stocks](./leetcode/0121-best-time-buy-sell-stocks/1-0121-best-time-buy-sell-stocks.cpp)
 -   [0003 (M) Longest substring without repeating characters](./leetcode/0003-longest-substring-wo-repeating-chars/1-0003-longest-substring-wo-repeating-chars.cpp)
 -   [0424 (M) Longest repeating character replacement](./leetcode/0424-longest-repeating-character-replacement/1-0424-longest-repeating-character-replacement.cpp)
+-   [0567 (M) Permutation in String](./leetcode/0567-permutation/1-0567-permutation.cpp)
 
 #### Linked List
 
