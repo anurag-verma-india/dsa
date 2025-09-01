@@ -55,6 +55,7 @@ Opening square bracket is used to count the number of solved problems
 -   [0036 (M) Valid Sudoku](./leetcode/0036-valid-sudoku/1-0036-valid-sudoku.cpp)
     -   Re0036 (M) Valid Sudoku(./leetcode/0036-valid-sudoku/re2-00360valid-sudoku.py)
 -   [0128 (M) Longest Consecutive Sequence](./leetcode/0128-longest-consecutive-sequence/2-0128-longest-consecutive-sequence.cpp)
+-   [0217 (E) Contains Duplicate](./leetcode/0217-contains-duplicate/3-0217-contains-duplicate.cpp)
 
 #### Stack
 
@@ -97,7 +98,6 @@ Opening square bracket is used to count the number of solved problems
 -   [0141 (E) Linked List Cycle](./leetcode/0141-linked-list-cycle/1-0141-linked-list-cycle.cpp)
 -   [0143 (M) Reorder List](./leetcode/0143-reorder-list/1-0143-reorder-list.cpp)
 -   [0019 (M) Remove Nth Node From End of List](./leetcode/0019-remove-nth-from-LL/0-0143-remove-nth-from-LL.cpp)
--   [0217 (E) Contains Duplicate](./leetcode/0217-contains-duplicate/3-0217-contains-duplicate.cpp)
 
 #### Backtracking
 
