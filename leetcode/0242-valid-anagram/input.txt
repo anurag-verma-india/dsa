@@ -1,0 +1,9 @@
+
+2
+rat
+car
+
+2 
+anagram
+nagaram
+
