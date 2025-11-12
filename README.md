@@ -31,7 +31,7 @@ Opening square bracket is used to count the number of solved problems
 
 #### Medium
 
--   [2 Sum Problem](./leetcode/10-0001-two-sum/1-two-sum.cpp) (2 times)
+-   [2 Sum Problem](./leetcode/0001-two-sum/1-two-sum.cpp) (2 times)
 
 #### Hard
 
@@ -47,7 +47,7 @@ Opening square bracket is used to count the number of solved problems
 
 #### Arrays & Hashing
 
--   0002 (E) Two sum (See above)(./leetcode/10-0001-two-sum/1-two-sum.cpp)
+-   0001 (E) Two sum (See above)(./leetcode/0001-two-sum/1-two-sum.cpp)
 -   [0049 (M) Group Anagrams](./leetcode/0049-group-anagrams/1-group-anagrams.cpp)
 -   [0347 (M) Top K frequent elements](./leetcode/0347-top-k-frequent/1-top-k-frequent.cpp)
 -   [0271 (M) Encode and Decode strings](./leetcode/0271-encode-decode-string/1-encode-decode.cpp)
