@@ -2,6 +2,7 @@
 
 *.out
 *.bin
+*.elf
 
 .vscode/*
 !.vscode/launch.json
