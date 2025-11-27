@@ -95,14 +95,14 @@ TreeNode* build_tree(vector<int> preorder) {
     return root;
 }
 
-void printTree(TreeNode* root) {
+void printTreePreOrder(TreeNode* root) {
     if (root == nullptr) {
         cout << "-1 ";
         return;
     }
     cout << root->val << " ";
-    printTree(root->left);
-    printTree(root->right);
+    printTreePreOrder(root->left);
+    printTreePreOrder(root->right);
     return;
 }
 
@@ -115,7 +115,7 @@ int main() {
     TreeNode* root = build_tree(int_vec);
 
     cout << "Tree: ";
-    printTree(root);
+    printTreePreOrder(root);
     cout << endl;
 
     // cout << "Finding max depth" << endl;
