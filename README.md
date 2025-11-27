@@ -99,6 +99,13 @@ Opening square bracket is used to count the number of solved problems
 -   [0141 (E) Linked List Cycle](./leetcode/0141-linked-list-cycle/1-0141-linked-list-cycle.cpp)
 -   [0143 (M) Reorder List](./leetcode/0143-reorder-list/1-0143-reorder-list.cpp)
 -   [0019 (M) Remove Nth Node From End of List](./leetcode/0019-remove-nth-from-LL/0-0143-remove-nth-from-LL.cpp)
+-
+
+#### Trees
+
+-   [0226 Invert Binary Tree (E)](./leetcode/0226-invert-binary-tree/0-0226-invert-binary-tree.cpp)
+-   [0104 Maximum Depth of Binary Tree (E)](./leetcode/0104-max-depth-of-binary-tree/1-0104-max-depth-of-binary-tree.cpp)
+-   
 
 #### Backtracking
 
