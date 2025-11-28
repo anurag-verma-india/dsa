@@ -77,10 +77,17 @@ TreeNode* buildTreeFromLevelOrder(vector<string> lvlOrder) {
 
     start out with a queue that only has the root node
 
-    for each subsequent value on the vector
-    if that value is less than size of the vector
+    for each subsequent value in the vector
+    if that value's idx is less than size of the vector and the queue has more nodes
+    (since we need some nodes to attach new ones to)
         make new nodes with those values and add them to left and right of the current node
         and also add them to the queue
+        also skip them if they are null,
+        because null ptrs don't have child nodes,
+        so we don't need to add them to queue;
+        and every new node created already has null on it's left and right,
+        so we don't need to do anything to the nodes either)
+
      */
     if (lvlOrder.empty() || lvlOrder[0] == "null") {
         return nullptr;
