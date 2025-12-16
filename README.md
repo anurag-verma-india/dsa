@@ -107,6 +107,7 @@ Opening square bracket is used to count the number of solved problems
 -   [0104 Maximum Depth of Binary Tree (E)](./leetcode/0104-max-depth-of-binary-tree/1-0104-max-depth-of-binary-tree.cpp)
 -   [0543 Diameter of Binary Tree (E)](./leetcode/0543-diameter-of-binary-tree/2-0543-diameter-of-binary-tree.cpp)
 -   [0110 Balanced Binary Tree (E)](./leetcode/0110-balanced-binary-tree/0-0110-balanced-binary-tree.cpp)
+-   [0100 Same Tree (E)](./leetcode/0100-same-tree/0-0100-same-tree.cpp)
 
 #### Backtracking
 
