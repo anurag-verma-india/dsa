@@ -1,7 +1,6 @@
 // Detect if a power of 2 or not w/o loop (print true or false)
 // https://www.geeksforgeeks.org/dsa/program-to-find-whether-a-given-number-is-power-of-2/
-#include <iostream>
-using namespace std;
+#include <iostream> using namespace std;
 
 /*
 ip
