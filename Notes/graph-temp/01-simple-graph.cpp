@@ -1,0 +1,47 @@
+#include<list> 
+#include<iostream>
+using namespace std;
+
+class Graph { 
+    int V;
+    list<int> *l; // int *arr; i.e. pointer to a list of ints (dynamic array)
+    // access (int)arr[0], (int)arr[1], ...
+
+    public: 
+    Graph(int V) {
+        this->V  = V;
+        l = new list<int> [V];
+        // arr = new int[V]
+    }
+
+    void addEdge(int u, int v) {
+        l[u].push_back(v);
+        l[v].push_back(u);
+    }
+
+    void printAdjList() {
+        for(int i = 0;i<V;i++) {
+            cout << i << " : " ;
+            for(int neigh: l[i]) {
+                cout << neigh << " ";
+            }
+            cout << endl;
+        }
+    }
+};
+
+int main() {
+    Graph g(5);
+
+    g.addEdge(0,1);
+    g.addEdge(1,2);
+    g.addEdge(1,3);
+    g.addEdge(2,3);
+    g.addEdge(2,4);
+
+    g.printAdjList();
+    
+
+    return 0;
+}
+
