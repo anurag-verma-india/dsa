@@ -34,14 +34,14 @@ class Graph {
     void bfs(int starting_node) {
         /*
         Approach:
-            Visit all immediate neighbours of each node first
+            Visit all immediate neighbor of each node first
 
-            Keep a queue of all the immediate neighbours, mark all the visited ones in a separate array
+            Keep a queue of all the immediate neighbor, mark all the visited ones in a separate array
             Initialize the queue with a single node
 
             Until the queue becomes empty
-                Mark this top as visited
-                Add add the unvisited neighbours of current top to the queue
+                Add add the unvisited neighbor of current top to the queue
+                 and mark that as visited (since it'll be surely visited once it's added to the queue, since the loop will only exit when queue is empty)
 
             Time complexity: O(V+E)
          */
@@ -56,7 +56,7 @@ class Graph {
             q.pop();
             cout << u << " ";
             for (int v: l[u]) {
-                // v -> immediate neighbour
+                // v -> immediate neighbor
                 if (!visited[v]) {
                     visited[v] = true;
                     q.push(v);

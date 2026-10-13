@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=scQITTLgFJo&list=PLGjplNEQ1it-0w_PkFtKzH0ZExo6Lv
 
 - ![01-graph.png](./01-graph.png)
 
-- Travel to immediate neighbout first 
+- Travel to immediate neighbor first 
 - Unlike trees, graphs doesn't have starting point 
 
 
